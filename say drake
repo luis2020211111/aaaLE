@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Te Amo Mi Pimpo ❤️</title>
+    <style>
+        body { 
+            background: #ff99cc; 
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: "Arial", sans-serif;
+        }
+        h1 {
+            font-size: 6em;
+            color: #ff0066;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            animation: latido 1s infinite;
+        }
+        @keyframes latido {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+    </style>
+</head>
+<body>
+    <h1>TE AMO MI PIMPO ❤️</h1>
+</body>
+</html>
