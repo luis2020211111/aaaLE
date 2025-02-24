@@ -1,18 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title> Happy Birthday Te Amo Mi Pimpo ❤️</title>
+    <title>¡Feliz Cumpleaños! ❤️</title>
     <style>
         body { 
             background: #ff99cc; 
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
             font-family: "Arial", sans-serif;
+            text-align: center;
         }
-        h1 {
+        .cumple {
+            font-size: 4em;
+            color: #ffffff;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.4);
+            animation: brillo 2s infinite;
+            margin-bottom: 30px;
+        }
+        .amor {
             font-size: 6em;
             color: #ff0066;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
@@ -23,9 +32,15 @@
             50% { transform: scale(1.1); }
             100% { transform: scale(1); }
         }
+        @keyframes brillo {
+            0% { opacity: 0.8; }
+            50% { opacity: 1; text-shadow: 0 0 20px #ffffff; }
+            100% { opacity: 0.8; }
+        }
     </style>
 </head>
 <body>
-    <h1>TE AMO MI PIMPO ❤️</h1>
+    <div class="cumple">🎉 ¡Happy Birthday! 🎂</div>
+    <div class="amor">Te Amo Mi Pimpo ❤️</div>
 </body>
 </html>
